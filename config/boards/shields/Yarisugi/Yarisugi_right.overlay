@@ -1,4 +1,4 @@
-#include "yarisugi.dtsi"
+#include "Yarisugi.dtsi"
 
 &default_transform {
     col-offset = <6>;
