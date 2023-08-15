@@ -61,10 +61,11 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         sensors = <&left_encoder &right_encoder>;
     };
 
-    &nice_view_spi {
+    nice_view_spi: &spi0 {
+    compatible = "nordic,nrf-spim";
     cs-gpios = <&pro_micro 6 GPIO_ACTIVE_HIGH>;
-    sck-pin = <&pro_micro 5>;
-    mosi-pin = <&pro_micro 4>;
+    sck-pin = <5>;
+    mosi-pin = <4>;
     };
 };
 
