@@ -14,6 +14,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: Yarisugi_left
+    shield: Yarisugi_left nice_view
   - board: nice_nano_v2
-    shield: Yarisugi_right
+    shield: Yarisugi_right nice_view
