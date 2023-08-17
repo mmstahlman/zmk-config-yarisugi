@@ -60,7 +60,7 @@
                    &rgb_ug RGB_EFR    &rgb_ug RGB_EFF      &trans    &trans    &trans   &trans    &trans       &trans    &kp KP_N0    &kp KP_DOT 
             >;
 //set up encoders to change brightness and features rotation?
-            sensor-bindings = <&rgb_encoder &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&rgb_encoder &rgb_encoder>;
         };
 
         raise_layer {
